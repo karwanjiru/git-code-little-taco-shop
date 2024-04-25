@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Little Taco Shop">
+    <meta name="description" content="This page contains Little Taco Shop Contact Form.">
+    <title>Contact Us</title>
+    <link rel="icon" href="img/tacos.3.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" text="text/css">
+    
+</head>
+
+<body>
+    <header class="header">
+    
+        <h1 class="header__h1">Contact Us</h1>
+        <nav class="header__nav">
+
+            <ul class="header__ul">
+                <li>
+                    <a href="http://127.0.0.1:5500/home.html">Home</a>
+                </li>
+                <li>
+                    <a href="hhttp://127.0.0.1:5500/home.html#dts">About Us</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/home.html#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/more.html">More Info</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="hero">    
+            <figure>
+            <img src="img/Tacos.03.jpeg" alt="Diana's Taco Shop Tacos" title="Diana's Taco Shop Tacos" width="700" height="616">
+            
+                <figcaption class="offscreen">Diana's Taco Shop Tacos</figcaption>
+            </figure>
+        
+        </section>
+
+        <main class="main">
+        <article class="main__article">
+            <h2>Our Location</h2>
+            <address>
+                555 Taco Temptation Lane, Suite T <br>
+                Kansas City, MO 55555-5555 <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198803.4502000674!2d-100.96016367492055!3d38.46845134056199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87a31771717c016b%3A0x68c2b4a94b3e095f!2sKansas%2C%20USA!5e0!3m2!1sen!2ske!4v1713496592738!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+                 </address>
+                 <br>
+                 <p>Phone: <a href="555-555-5555">555-555-5555</a></p>
+
+                 <p>
+                    <a href="#">Back to Top</a>
+                 </p>
+        </article>
+        <hr>
+
+        <article class="main__article contact">
+        <h2 class="contact__h2">Our Contact Form</h2>
+        <form action="https://httpbin.org/get" method="get">
+        
+            <fieldset class="contact__fieldset">
+            <legend class="offscreen">Send Us A Message</legend>
+            <p class="contact__p">
+                <label class="contact__label" for="name">Name:</label>
+                <input class="contact__input" type="text" name="name" id="name" placeholder="your name" autocomplete="on" required autofocus>
+            </p>
+            <p>
+                <label class="contact__label" for="email">Email:</label>
+                <input contact__input type="email" name="email" id="email" placeholder="your email" multiple required>
+            </p>
+            <p> 
+                
+                <label class="contact__label" for="yourMessage">Your Message:</label>
+        </p>
+
+             <p>  
+            <textarea class="contact__textarea" name="yourMessage" id="yourMessage" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </p>
+        </fieldset>
+        
+
+        <button class="contact__button" type="submit" formaction="https://httpbin.org/get" method="get">Send</button>
+        <button class="contact__button" type="reset">Reset</button>
+
+    </form>
+</article>
+</main>
+
+<footer class="footer">
+    <p>
+        <span class="nowrap">Copyright &copy;</span> 
+        <span class="nowrap">Diana's Taco Shop</span> 
+    </p>
+</footer>
+
+    
+</body>
+</html>
